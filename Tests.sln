@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database1", "Database1\Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm1", "Algorythm\Algorithm1.csproj", "{9CE51CB8-641C-48B0-B749-15AC5475B5BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileAverage", "MobileAverage\MobileAverage.csproj", "{333ED0F5-330B-42A3-905E-0028F092E1F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9CE51CB8-641C-48B0-B749-15AC5475B5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CE51CB8-641C-48B0-B749-15AC5475B5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CE51CB8-641C-48B0-B749-15AC5475B5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{333ED0F5-330B-42A3-905E-0028F092E1F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333ED0F5-330B-42A3-905E-0028F092E1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333ED0F5-330B-42A3-905E-0028F092E1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333ED0F5-330B-42A3-905E-0028F092E1F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
