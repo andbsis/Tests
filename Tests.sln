@@ -9,6 +9,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm1", "Algorythm\Alg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileAverage", "MobileAverage\MobileAverage.csproj", "{333ED0F5-330B-42A3-905E-0028F092E1F6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HandShake", "HandShake", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandShakeServer", "HandshakeServer\HandShakeServer.csproj", "{3A4A2CA2-E0BA-4984-96CD-8BB295E1FC09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandShakeClient", "HandShakeClient\HandShakeClient.csproj", "{00B400DA-E75C-4050-A006-C72321E48B5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandShakeLib", "HandShakeLib\HandShakeLib.csproj", "{AB7A3346-FD66-401D-9547-E99C2F29A0CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +38,26 @@ Global
 		{333ED0F5-330B-42A3-905E-0028F092E1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{333ED0F5-330B-42A3-905E-0028F092E1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{333ED0F5-330B-42A3-905E-0028F092E1F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A4A2CA2-E0BA-4984-96CD-8BB295E1FC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4A2CA2-E0BA-4984-96CD-8BB295E1FC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4A2CA2-E0BA-4984-96CD-8BB295E1FC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4A2CA2-E0BA-4984-96CD-8BB295E1FC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B400DA-E75C-4050-A006-C72321E48B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B400DA-E75C-4050-A006-C72321E48B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B400DA-E75C-4050-A006-C72321E48B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B400DA-E75C-4050-A006-C72321E48B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB7A3346-FD66-401D-9547-E99C2F29A0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7A3346-FD66-401D-9547-E99C2F29A0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7A3346-FD66-401D-9547-E99C2F29A0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7A3346-FD66-401D-9547-E99C2F29A0CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A4A2CA2-E0BA-4984-96CD-8BB295E1FC09} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{00B400DA-E75C-4050-A006-C72321E48B5F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{AB7A3346-FD66-401D-9547-E99C2F29A0CD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0CAD105F-5FF5-4936-9059-9FD1568376A7}

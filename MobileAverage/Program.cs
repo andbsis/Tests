@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // step 1. Mandatory
             // design a class named MobileAverage, used to calculate the mobile average of a list of numbers, called 'Serie'
@@ -29,7 +29,7 @@
             var avg = new MobileAverage(intervalWidth);
             for (var i = intervalWidth - 1; i < itemsCount; i++)
             {
-                var s ="[";
+                var s = "[";
                 for (var j = i - intervalWidth + 1; j <= i; j++)
                 {
                     s = $"{s}{items[j]},";

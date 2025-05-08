@@ -2,8 +2,12 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            // step 1. implement a data access layer to access a database
+            // step 2. implement an asynchronous data access layer to access a database
+            // if step 2 is done, step 1 is not necessary
+
             // suppose you have a Mysql database server running on localhost
             // and you have a user named "John" with password "Doe"
             // and you have a database named "testdb"
@@ -58,7 +62,6 @@
             // var userRepository = IRepository<User>(Database.GetDBConnection())
             // var roleRepository = IRepository<Role>(Database.GetDBConnection())
             // var userRoleRepository = IRepository<UserRole>(Database.GetDBConnection())
-
 
             // Let this HashCode work: Organization should persist data to database
 
